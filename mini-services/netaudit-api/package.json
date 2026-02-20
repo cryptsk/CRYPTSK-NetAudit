@@ -1,0 +1,8 @@
+{
+  "name": "netaudit-api",
+  "version": "1.0.0",
+  "description": "CRYPTSK NetAudit FastAPI Backend",
+  "scripts": {
+    "dev": "cd /home/z/my-project/netaudit && ./venv/bin/python -m uvicorn api.main:app --host 127.0.0.1 --port 3031 --reload"
+  }
+}
